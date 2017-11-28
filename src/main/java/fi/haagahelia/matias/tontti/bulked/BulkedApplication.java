@@ -3,6 +3,8 @@ package fi.haagahelia.matias.tontti.bulked;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 
 import fi.haagahelia.matias.tontti.bulked.domain.Food;
@@ -10,6 +12,7 @@ import fi.haagahelia.matias.tontti.bulked.domain.FoodRepository;
 
 @SpringBootApplication
 public class BulkedApplication {
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(BulkedApplication.class, args);
